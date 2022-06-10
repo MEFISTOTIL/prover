@@ -1,0 +1,250 @@
+/* ------ Подключение шрифтов ------ */
+html {
+	scroll-behavior: smooth;
+}
+
+div,
+p,
+form,
+input,
+a,
+span,
+button {
+	box-sizing: border-box;
+}
+
+p {
+	margin: 0;
+	font-size: 14px;
+}
+
+ul,
+li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	color: #333333;
+}
+
+a,
+a:hover,
+a:active {
+	text-decoration: none;
+}
+
+a,
+button,
+input {
+	transition: all 0.5s ease;
+}
+
+input,
+input:hover,
+input:focus,
+input:active,
+button,
+button:hover,
+button:focus,
+button:active {
+	outline: none;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	color: #333333;
+	padding: 0;
+	letter-spacing: 0.0em;
+	margin: 0;
+	font-size: 14px;
+}
+
+h1 {
+	font-size: 45px;
+	font-weight: 900;
+}
+
+h2 {
+	font-size: 30px;
+	letter-spacing: 0.35em;
+	margin-bottom: 15px;
+	margin-top: 35px;
+}
+
+span {
+	font-weight: 700;
+}
+
+a:hover {
+	color: #F88500;
+}
+
+/* ------ Header ------ */
+
+.header {
+	box-shadow: 0px 10px 40px rgb(209 209 209 / 42%);
+}
+
+.menu {
+	padding-top: 31px;
+	padding-bottom: 31px;
+}
+
+.menu-items {
+	display: flex;
+	justify-content: space-around;
+}
+
+.menu-items_link {
+	color: #333333;
+	background-color: #fff;
+	border: 1px solid #fff;
+	padding: 10px 20px;
+}
+
+.menu-items_link:hover {
+	color: #fff;
+	background-color: #F88500;
+	border: 1px solid #F88500;
+	border-radius: 0 5px 0 5px;
+}
+
+/* ------ Section Profile ------ */
+
+.profile {
+	padding-top: 70px;
+}
+
+.profile-title {
+	text-align: center;
+}
+
+.profile-logo {
+	width: 281px;
+	height: 281px;
+	border-radius: 50%;
+	object-fit: cover;
+	filter: grayscale(0.2) brightness(1.05);
+	box-shadow: 0 1px 4px rgb(0 0 0 / 60%);
+	margin-left: 100px;
+}
+
+.profile-title_decoration {
+	width: 200px;
+	height: 3px;
+	border-radius: 0 5px 0 5px;
+	background-color: #F88500;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.profile-title_spec {
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: 300;
+}
+
+.profile-decoratio {
+	background-color: #F88500;
+	height: 5px;
+	margin-top: 70px;
+}
+
+/* ------ Section Info ------ */
+
+.info {
+	padding-top: 35px;
+	padding-bottom: 50px;
+}
+
+
+.info-item_list {
+	display: flex;
+}
+
+.info-item_icon {
+	width: 20px;
+	height: 20px;
+	color: #F88500;
+	font-size: 18px;
+	margin-right: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.info-item_text {
+	font-size: 16px;
+}
+
+.info-items_item {
+	margin-top: 20px;
+}
+
+.text-summary {
+	line-height: 1.9em;
+}
+
+.info-item_decoration {
+	height: 16px;
+	width: 16px;
+	background-color: #F88500;
+	border-radius: 50%;
+}
+
+.roboto {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.pre {
+	font-size: 16px;
+}
+
+.info-decoration {
+	width: 200px;
+	height: 3px;
+	border-radius: 0 5px 0 5px;
+	background-color: #F88500;
+	margin-top: 35px;
+}
+
+/* ------ Footer------ */
+
+.footer {
+	background: #3A2205;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.footer-left {
+	display: flex;
+}
+
+.year {
+	font-size: 16px;
+	color: #F8F8F8;
+
+}
+
+.git {
+	color: #F8F8F8;
+	font-size: 16px;
+	margin-left: 50px;
+}
+
+.rslogo {
+	width: 100px;
+}
+
+/* ------ Медиазапросы ------ */
+
+/* >1400 px */
+@media screen and (min-width: 1400px) {
+	.container {
+		width: 1120px;
+	}
+}
